@@ -1,0 +1,189 @@
+/* 
+    RESET
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    DEBUG
+*/
+
+.debug header{
+    background-color: #add8e6;
+}
+
+.debug .hero{
+    background-color: #00008b;
+}
+
+.debug .header-top{
+    background-color: #daa520;
+    height: 50px;
+    border: 1px dashed;
+}
+
+.debug .header-bot{
+    background-color: #ee82ee;
+    height: 500px;
+    border: 1px dashed;
+}
+
+.debug section:nth-child(2n){
+    background-color: #d3d3d3;
+}
+
+.debug .row{
+    height: 400px;
+}
+
+.debug .container-big{
+    background-color: #1e90ff;
+    border: 1px dashed;
+}
+
+.debug .container-small{
+    background-color: #ffc0cb;
+    border: 1px dashed;
+}
+
+.debug .last-container{
+    background-color: #228b22;
+    height: 900px;
+    border: 1px dashed;
+}
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .footer-top{
+    height: 500px;
+}
+
+.debug .box-1{
+    background-color: #f08080;
+    border: 1px dashed;
+}
+
+.debug .box-2{
+    background-color: #20b2aa;
+    border: 1px dashed;
+}
+
+.debug .footer-bot{
+    background-color: #7fffd4;
+    height: 60px;
+}
+
+.debug .logo-footer{
+    background-color: #ffb6c1;
+    border: 1px dashed;
+}
+
+.debug .button{
+    background-color: #ffb6c1;
+    border: 1px dashed;
+}
+
+/* 
+    COMMON
+*/
+
+.container{
+    max-width: 1200px;
+    margin: auto
+}
+
+header{
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+.login{
+    text-align: end;
+}
+
+.main-nav{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* 
+    MAIN
+*/
+
+section{
+    padding: 40px;
+}
+
+.row{
+    display: flex;
+}
+
+.container-big{
+    width: 60%;
+}
+
+.container-small{
+    width: 40%;
+}
+
+.last-container{
+    width: 100%;
+}
+
+/* 
+    FOOTER
+*/
+
+footer{
+    padding: 16px 0;
+}
+
+.footer-top{
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.box-1{
+    width: 25%;
+}
+
+.box-2{
+    width: 18.75%;
+}
+
+.logo-footer{
+
+}
+
+.button{
+    
+}
+
+.footer-bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
