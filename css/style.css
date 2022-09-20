@@ -12,48 +12,44 @@
 /* 
     DEBUG
 */
-/* 
+
 .debug header{
     background-color: #add8e6;
-} */
+}
 
-/* .debug .hero{
+.debug .hero{
     background-color: #00008b;
-} */
+}
 
-/* .debug .header-top{
+.debug .header-top{
     background-color: #daa520;
     height: 50px;
     border: 1px dashed;
-} */
+}
 
-/* .debug .header-bot{
+.debug .header-bot{
     background-color: #ee82ee;
     height: 500px;
-} */
+}
 
 .debug .row{
     height: 400px;
 }
-/* 
+
 .debug .container-big{
     background-color: #1e90ff;
     border: 1px dashed;
-} */
+}
 
-/* .debug .container-small{
+.debug .container-small{
     background-color: #ffc0cb;
     border: 1px dashed;
-} */
+}
 
 .debug .last-container{
     background-color: #228b22;
     height: 900px;
     border: 1px dashed;
-}
-
-.debug footer{
-    background-color: #23272a;
 }
 
 .debug .footer-top{
@@ -168,7 +164,7 @@ a{
     margin-top: 10px;
 }
 
-.button{
+button{
     border: none;
     padding: 12px 10px;
     border-radius: 20px;
@@ -185,6 +181,14 @@ a{
     color: white;
     background-color: #23272a;
     padding: 13px 10px;
+}
+
+#download-star{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: #7289DA;
 }
 
 /* 
@@ -217,8 +221,37 @@ h1{
     MAIN
 */
 
+p{
+    font-weight: 300;
+}
+
+section:nth-child(3n)::before{
+    height: 150px;
+    content:"";
+    filter: invert(98%) sepia(1%) saturate(1776%) hue-rotate(308deg) brightness(108%) contrast(93%);
+    background-image: url(../img/wave.svg);
+    display: block;
+    transform: rotate(180deg);
+    transform: rotateX(180deg);
+    position: relative;
+    top: -100px
+}
+
+
+section:nth-child(odd)::after{
+    height: 150px;
+    content:"";
+    filter: invert(98%) sepia(1%) saturate(1776%) hue-rotate(308deg) brightness(108%) contrast(93%);
+    background-image: url(../img/wave.svg);
+    display: block;
+    position: relative;
+    bottom: -20px;
+}
+
+
+
 section{
-    padding: 40px;
+    padding-top: 100px;
 }
 
 .row{
@@ -237,28 +270,44 @@ section{
 
 }
 
-.container-small h2{
+h2{
     font-size: 50px;
 }
 
-.container-small p{
+p{
     margin-top: 20px;
+    font-size: 20px;
 }
 
 .last-container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-section:nth-child(2n){
+
+section:nth-child(2n){background-size: ;
     background-color:  #F6F6F6;
+}
+
+.stars{
+    width: 46%;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+}
+
+.stars h3{
+    font-size: 30px;
 }
 
 
 /* 
     FOOTER
 */
-
 footer{
+    background-color: #23272a;
     padding: 16px 0;
 }
 
